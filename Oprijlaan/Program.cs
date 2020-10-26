@@ -12,11 +12,14 @@ namespace Oprijlaan
         {
             Hek hek = new Hek();
             Lamp lamp = new Lamp();
-            DetectieLus lus = new DetectieLus();
             Valkuil kuil = new Valkuil();
 
-            lus.Trigger();
+            DetectieLus lus = new DetectieLus();
+            lus.AddDevice(hek);
+            lus.AddDevice(kuil);
+            lus.AddDevice(lamp);
 
+            lus.Trigger();
         }
     }
 }

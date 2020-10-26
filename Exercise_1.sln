@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoomsdayPreppers", "Doomsda
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrac", "Infrac\Infrac.csproj", "{388055D6-9623-4F72-A013-121407589E12}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise_1.Interfaces", "Exercise_1.Interfaces\Exercise_1.Interfaces.csproj", "{90AFA5DE-39EE-4A50-B213-8A59D7E91D9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{388055D6-9623-4F72-A013-121407589E12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{388055D6-9623-4F72-A013-121407589E12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{388055D6-9623-4F72-A013-121407589E12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90AFA5DE-39EE-4A50-B213-8A59D7E91D9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90AFA5DE-39EE-4A50-B213-8A59D7E91D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90AFA5DE-39EE-4A50-B213-8A59D7E91D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90AFA5DE-39EE-4A50-B213-8A59D7E91D9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
