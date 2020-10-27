@@ -15,9 +15,14 @@ namespace Oprijlaan
             Valkuil kuil = new Valkuil();
 
             DetectieLus lus = new DetectieLus();
-            lus.AddDevice(hek);
-            lus.AddDevice(kuil);
-            lus.AddDevice(lamp);
+
+            lus.ActiveerDevices += hek.Open;
+            lus.ActiveerDevices += kuil.Open;
+            lus.ActiveerDevices += lamp.Aan;
+
+            lus.DeactiveerDevices += lamp.Uit;
+            lus.DeactiveerDevices += kuil.Dicht;
+            lus.DeactiveerDevices += hek.Sluit;
 
             lus.Trigger();
         }

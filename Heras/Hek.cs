@@ -1,9 +1,8 @@
-﻿using Exercise_1.Interfaces;
-using System;
+﻿using System;
 
 namespace Heras
 {
-    public class Hek : IDetectieLusDevices
+    public class Hek 
     {
         public void Activeer()
         {
@@ -13,6 +12,11 @@ namespace Heras
         public void Open()
         {
             Console.WriteLine("Het Hek gaat open!");
+        }
+
+        public void Sluit()
+        {
+            Console.WriteLine("Het Hek gaat sluit!");
         }
     }
 }

@@ -3,17 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oprijlaan", "Oprijlaan\Oprijlaan.csproj", "{2058F1A8-F8DB-43EE-B9EB-D9E05F04C9AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oprijlaan", "Oprijlaan\Oprijlaan.csproj", "{2058F1A8-F8DB-43EE-B9EB-D9E05F04C9AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heras", "Heras\Heras.csproj", "{A35DE386-0D1B-4EE6-BB45-FD6CDCD58954}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heras", "Heras\Heras.csproj", "{A35DE386-0D1B-4EE6-BB45-FD6CDCD58954}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Osram", "Osram\Osram.csproj", "{37428B1F-CB57-4874-8042-07AAFE997852}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Osram", "Osram\Osram.csproj", "{37428B1F-CB57-4874-8042-07AAFE997852}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoomsdayPreppers", "DoomsdayPreppers\DoomsdayPreppers.csproj", "{360B1DED-361B-4908-9CB5-5B70270EBA48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoomsdayPreppers", "DoomsdayPreppers\DoomsdayPreppers.csproj", "{360B1DED-361B-4908-9CB5-5B70270EBA48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrac", "Infrac\Infrac.csproj", "{388055D6-9623-4F72-A013-121407589E12}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise_1.Interfaces", "Exercise_1.Interfaces\Exercise_1.Interfaces.csproj", "{90AFA5DE-39EE-4A50-B213-8A59D7E91D9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrac", "Infrac\Infrac.csproj", "{388055D6-9623-4F72-A013-121407589E12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +39,6 @@ Global
 		{388055D6-9623-4F72-A013-121407589E12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{388055D6-9623-4F72-A013-121407589E12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{388055D6-9623-4F72-A013-121407589E12}.Release|Any CPU.Build.0 = Release|Any CPU
-		{90AFA5DE-39EE-4A50-B213-8A59D7E91D9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{90AFA5DE-39EE-4A50-B213-8A59D7E91D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{90AFA5DE-39EE-4A50-B213-8A59D7E91D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{90AFA5DE-39EE-4A50-B213-8A59D7E91D9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

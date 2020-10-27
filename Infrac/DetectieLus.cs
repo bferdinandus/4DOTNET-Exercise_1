@@ -1,27 +1,28 @@
-﻿using Exercise_1.Interfaces;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Infrac
 {
+    public delegate void NotifyDevice();
+
     public class DetectieLus
     {
-        public List<IDetectieLusDevices> Devices { get; } = new List<IDetectieLusDevices>();
+        public event NotifyDevice ActiveerDevices;
+        public event NotifyDevice DeactiveerDevices;
 
         public void Trigger()
         {
             Console.WriteLine("Hmmm. We zien iets...");
             // TODO: Actieveer hier alles wat aan de detectielus hangt
 
-            foreach (IDetectieLusDevices device in Devices)
-            {
-                device.Activeer();
-            }
+            ActiveerDevices();
+
+            Task.Delay(2000).Wait();
+
+            DeactiveerDevices();
         }
 
-        public void AddDevice(IDetectieLusDevices device)
-        {
-            Devices.Add(device);
-        }
+        
     }
 }

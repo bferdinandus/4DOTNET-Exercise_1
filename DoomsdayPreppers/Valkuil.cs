@@ -1,9 +1,8 @@
-﻿using Exercise_1.Interfaces;
-using System;
+﻿using System;
 
 namespace DoomsdayPreppers
 {
-    public class Valkuil : IDetectieLusDevices
+    public class Valkuil
     {
         public void Activeer()
         {
@@ -13,6 +12,10 @@ namespace DoomsdayPreppers
         public void Open()
         {
             Console.WriteLine("De valkuil gaat open!");
+        }
+        public void Dicht()
+        {
+            Console.WriteLine("De valkuil gaat dicht!");
         }
     }
 }
