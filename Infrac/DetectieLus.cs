@@ -16,11 +16,14 @@ namespace Infrac
             Console.WriteLine("Hmmm. We zien iets...");
             // TODO: Actieveer hier alles wat aan de detectielus hangt
 
-            ActiveerDevices();
+            ActiveerDevices?.Invoke();
 
             Task.Delay(2000).Wait();
+            Console.WriteLine("");
+            Console.WriteLine("Het gevaar is geweken!");
+            Console.WriteLine("");
 
-            DeactiveerDevices();
+            DeactiveerDevices?.Invoke();
         }
 
         

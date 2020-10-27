@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 
 namespace Osram
 {
@@ -6,6 +7,7 @@ namespace Osram
     {
         public void Aan ()
         {
+            Task.Delay(1000).Wait();
             Console.WriteLine("De lamp gaat aan.");
         }
 
